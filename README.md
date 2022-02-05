@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+## SINGLE PAGE FINAL PROJECT - BOOK STORE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="https://facksbooks.netlify.app/" target="_blank"><h3 align="left">Click here for demo</h3></a>
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [General info](#general-info)
+- [Preview](#preview)
+- [Cards in Carousel](#cards-in-carousel)
+- [Dynamic Dropdown Button](#dynamic-dropdown-button)
+- [Search Box](#search-box)
+- [Login and Register Page](#login-and-register-page) 
+- [Cart](#cart)
+- [Comment](#comment)
+- [Favorite Books](#favorite-books)
+- [Technologies](#technologies)
 
-### `npm start`
+## General Info
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+It is the end of the chapter project and it was done as a team work. The project was built using React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Due to the time limitation in the project, some minor errors that do not affect the system have been ignored.
 
-### `npm test`
+This project is important because it shows that the Single Page based React Library can use important concepts such as useEffect, useReducer, useContext.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Since the backend has not been learned yet in this project, array has been used as a database.
 
-### `npm run build`
+## Preview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Mobile
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![alt text](src/images/readmegifs/mobile.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Laptop
 
-### `npm run eject`
+![alt text](src/images/readmegifs/laptop.gif)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Desktop
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![alt text](src/images/readmegifs/general.gif)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Some prominent features of the system
 
-## Learn More
+### Cards in Carousel
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![alt text](src/images/readmegifs/slider.gif)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Dynamic Dropdown Button
 
-### Code Splitting
+![alt text](src/images/readmegifs/category.gif)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Search Box
 
-### Analyzing the Bundle Size
+![alt text](src/images/readmegifs/searchbox.gif)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### Login and Register Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![alt text](src/images/readmegifs/login.gif)
 
-### Advanced Configuration
+### Cart
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![alt text](src/images/readmegifs/activities.gif)
 
-### Deployment
+### Comment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![alt text](src/images/readmegifs/comment.gif)
 
-### `npm run build` fails to minify
+### Favorite Books
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![alt text](src/images/readmegifs/merklist.gif)
+
+
+## Technologies
+
+- JavaScript
+- Npm
+- React
+- UseContext
+- Alertify
+- React-slick
+- Nodemon
+- Github
+
